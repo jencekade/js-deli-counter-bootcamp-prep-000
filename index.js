@@ -26,9 +26,9 @@ function nowServing(array) {
     return `Currently serving ${array[0]}.`;
   }
 
-  return `Currently serving ${array[0]}.`;
+  return `Currently serving ${array[0].shift()}.`;
   //array.shift();
-  array.splice(0, 1);
+  //array.splice(0, 1);
 
   //delete array[0];
   //array.splice(0, 1);
