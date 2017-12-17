@@ -11,12 +11,8 @@ function currentLine(array) {
   }
   let stringerfy = "";
   for (let index = 0; index < array.length; index++) {
-<<<<<<< HEAD
     stringerfy = stringerfy + (index + 1) + ". " + array[index] + ", ";
     //stringerfy = stringerfy +`${index+1}, ${array.index}, `;
-=======
-    stringerfy = stringerfy + (index + 1) + ". " + array[index] + ", "
->>>>>>> 855148760fb008227d6980f5299b14bb0b3426f8
   }
   stringerfy = stringerfy.toString();
   stringerfy = stringerfy.slice(0, -2);
@@ -29,18 +25,15 @@ function nowServing(array) {
   } else {
     return `Currently serving ${array[0]}.`;
   }
-<<<<<<< HEAD
+
   return `Currently serving ${array[0]}.`;
   //array.shift();
   array.splice(0, 1);
-=======
+
   //delete array[0];
   //array.splice(0, 1);
-  array.shift();
-
+  //array.shift();
   //return array;
-
->>>>>>> 855148760fb008227d6980f5299b14bb0b3426f8
 
   //delete array[0];
   return array;
